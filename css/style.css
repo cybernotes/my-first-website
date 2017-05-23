@@ -1,5 +1,26 @@
+
 body {
 	background-color: lavender;
+}
+
+nav ul{	
+	list-style: none;
+	padding: 0;
+}
+
+nav li{
+	float: left;
+	text-align: center;
+	width: 33.33%;
+}
+
+nav a{
+	color: purple;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
 }
 
 h1 {
@@ -10,6 +31,7 @@ h1 {
 }
 
 p, li{
+	color: black;
 	font-family: Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
